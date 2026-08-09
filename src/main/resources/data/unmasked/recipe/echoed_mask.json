@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": [
+      "paper"
+    ],
+    "#": [
+      "minecraft:string"
+    ],
+    "E": [
+      "minecraft:echo_shard"
+    ]
+  },
+  "pattern": [
+    " E ",
+    "#S#",
+    " E "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:warden_mask"
+  }
+}

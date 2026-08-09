@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": [
+      "paper"
+    ],
+    "#": [
+      "minecraft:string"
+    ]
+  },
+  "pattern": [
+    "   ",
+    "#S#",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:paper_mask"
+  }
+}

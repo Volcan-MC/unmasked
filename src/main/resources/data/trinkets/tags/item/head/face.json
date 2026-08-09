@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "unmasked:raven_mask",
+    "unmasked:paper_mask",
+    "unmasked:damage_harpy_mask",
+    "unmasked:allay_mask",
+    "unmasked:enderman_mask",
+    "unmasked:bunny_mask",
+    "unmasked:armadillo_mask",
+    "unmasked:skeleton_mask",
+    "unmasked:infernal_mask",
+    "unmasked:defile_mask",
+    "unmasked:spamton_mask",
+    "unmasked:fencing_mask",
+    "unmasked:hellspawn_mask",
+    "unmasked:star_mask",
+    "unmasked:warden_mask",
+    "unmasked:ominous_trial_mask"
+  ]
+}

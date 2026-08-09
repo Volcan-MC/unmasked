@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": [
+      "paper"
+    ],
+    "#": [
+      "minecraft:string"
+    ],
+    "E": [
+      "minecraft:feather"
+    ],
+    "D": [
+      "minecraft:soul_sand"
+    ]
+  },
+  "pattern": [
+    " E ",
+    "#S#",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:raven_mask"
+  }
+}

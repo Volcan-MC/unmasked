@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": [
+      "paper"
+    ],
+    "#": [
+      "minecraft:string"
+    ],
+    "E": [
+      "minecraft:pink_wool"
+    ],
+    "D": [
+      "minecraft:yellow_wool"
+    ]
+  },
+  "pattern": [
+    " E ",
+    "#S#",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:spamton_mask"
+  }
+}

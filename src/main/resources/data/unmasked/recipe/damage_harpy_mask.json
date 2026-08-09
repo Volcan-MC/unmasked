@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": [
+      "paper"
+    ],
+    "#": [
+      "minecraft:string"
+    ],
+    "E": [
+      "minecraft:feather"
+    ],
+    "D": [
+      "minecraft:lime_dye"
+    ]
+  },
+  "pattern": [
+    " E ",
+    "#S#",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:damage_harpy_mask"
+  }
+}
