@@ -1,5 +1,6 @@
 package aspen.apostasy.unmasked.mixin;
 
+import aspen.apostasy.unmasked.EnchantmentRegistry.EnchantmentRegistry;
 import aspen.apostasy.unmasked.maskRegistry.MaskRegistryClass;
 import dev.emi.trinkets.api.TrinketsApi;
 import net.minecraft.entity.player.PlayerEntity;
@@ -27,8 +28,9 @@ public class LivingEntityMixin {
         }
 
         boolean wearingMask = component.get().isEquipped(stack ->
-                stack.isOf(MaskRegistryClass.RAVEN_MASK)
+                (stack.isOf(MaskRegistryClass.RAVEN_MASK)
                         || stack.isOf(MaskRegistryClass.PAPER_MASK)
+                        || stack.isOf(MaskRegistryClass.BLINDFOLD)
                         || stack.isOf(MaskRegistryClass.ARMADILLO_MASK)
                         || stack.isOf(MaskRegistryClass.DAMAGE_HARPY_MASK)
                         || stack.isOf(MaskRegistryClass.ALLAY_MASK)
@@ -42,8 +44,13 @@ public class LivingEntityMixin {
                         || stack.isOf(MaskRegistryClass.WARDEN_MASK)
                         || stack.isOf(MaskRegistryClass.HELLSPAWN_MASK)
                         || stack.isOf(MaskRegistryClass.STAR_MASK)
-                        || stack.isOf(MaskRegistryClass.OMINOUS_TRIAL_MASK)
-
+                        || stack.isOf(MaskRegistryClass.OMINOUS_TRIAL_MASK))
+                        && stack.getEnchantments().getEnchantments().stream()
+                        .anyMatch(enchantmentEntry ->
+                                enchantmentEntry.getKey()
+                                        .map(key -> key.equals(EnchantmentRegistry.VEIL))
+                                        .orElse(false)
+                        )
         );
 
         if (wearingMask) {
@@ -51,3 +58,6 @@ public class LivingEntityMixin {
         }
     }
 }
+
+// Unmasked to-do's: add command to re-enable nametag when a mask is worn, add mask renderer, balance masks (make enchant dependant)
+// no idea how these enchantments will be acquired tho

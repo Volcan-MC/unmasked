@@ -1,7 +1,7 @@
 package aspen.apostasy.unmasked.maskRegistry;
 
 import aspen.apostasy.unmasked.Unmasked;
-import aspen.apostasy.unmasked.maskRegistry.custom.MaskItem;
+import aspen.apostasy.unmasked.maskRegistry.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -16,19 +16,21 @@ public class MaskRegistryClass {
 
     // Basic Masks
 
-    public static final Item PAPER_MASK = registerItem("paper_mask", MaskItem::new);
+    public static final Item PAPER_MASK = registerItem("paper_mask", PaperMaskItem::new);
+
+    public static final Item BLINDFOLD = registerItem("blindfold", MaskItem::new);
 
     // Flying Entity Masks
 
     public static final Item RAVEN_MASK = registerItem("raven_mask", MaskItem::new);
 
-    public static final Item DAMAGE_HARPY_MASK = registerItem("damage_harpy_mask", MaskItem::new);
+    public static final Item DAMAGE_HARPY_MASK = registerItem("damage_harpy_mask", DamageMaskItem::new);
 
     public static final Item ALLAY_MASK = registerItem("allay_mask", MaskItem::new);
 
     // End Masks
 
-    public static final Item ENDERMAN_MASK = registerItem("enderman_mask", MaskItem::new);
+    public static final Item ENDERMAN_MASK = registerItem("enderman_mask", EndermanMaskItem::new);
 
     // Overworld Masks
 
@@ -36,17 +38,17 @@ public class MaskRegistryClass {
 
     public static final Item ARMADILLO_MASK = registerItem("armadillo_mask", MaskItem::new);
 
-    public static final Item SKELETON_MASK = registerItem("skeleton_mask", MaskItem::new);
+    public static final Item SKELETON_MASK = registerItem("skeleton_mask", BoneMaskItem::new);
 
     public static final Item INFERNAL_MASK = registerItem("infernal_mask", MaskItem::new);
 
-    public static final Item WARDEN_MASK = registerItem("warden_mask", MaskItem::new);
+    public static final Item WARDEN_MASK = registerItem("warden_mask", WardenMaskItem::new);
 
-    public static final Item OMINOUS_TRIAL_MASK = registerItem("ominous_trial_mask", MaskItem::new);
+    public static final Item OMINOUS_TRIAL_MASK = registerItem("ominous_trial_mask", TrialMaskItem::new);
 
     // External Masks
 
-    public static final Item DEFILE_MASK = registerItem("defile_mask", MaskItem::new);
+    public static final Item DEFILE_MASK = registerItem("defile_mask", DefileMaskItem::new);
 
     public static final Item STAR_MASK = registerItem("star_mask", MaskItem::new);
 

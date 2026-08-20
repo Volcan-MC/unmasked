@@ -3,9 +3,9 @@
 	"id": "unmasked",
 	"version": "${version}",
 	"name": "unmasked",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds Masks to vanilla minecraft! These masks can be enchanted giving them the ability to hide the users name tag",
 	"authors": [
-		"Me!"
+		"ItsVixen_ (Aspen)"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"aspen.apostasy.unmasked.Unmasked"
+		],
+		"client": [
+			"aspen.apostasy.unmasked.UnmaskedClient"
 		],
 		"fabric-datagen": [
 			"aspen.apostasy.unmasked.UnmaskedDataGenerator"

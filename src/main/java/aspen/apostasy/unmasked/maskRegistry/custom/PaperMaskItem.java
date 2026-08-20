@@ -18,12 +18,12 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
-public class MaskItem extends TrinketItem implements TrinketRenderer {
+public class PaperMaskItem extends TrinketItem implements TrinketRenderer {
 
-    private static final Identifier TEXTURE = Identifier.of(Unmasked.MOD_ID, "textures/entity/trinket/hat.png");
+    private static final Identifier TEXTURE = Identifier.of(Unmasked.MOD_ID, "textures/entity/trinket/paper.png");
     private BipedEntityModel<BipedEntityRenderState> model;
 
-    public MaskItem(Settings settings) {
+    public PaperMaskItem(Settings settings) {
         super(settings);
     }
 

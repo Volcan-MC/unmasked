@@ -1,5 +1,7 @@
 package aspen.apostasy.unmasked;
 
+import aspen.apostasy.unmasked.EnchantmentRegistry.EnchantmentEffectRegistry;
+import aspen.apostasy.unmasked.EnchantmentRegistry.EnchantmentRegistry;
 import aspen.apostasy.unmasked.maskRegistry.MaskRegistryClass;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +21,7 @@ public class Unmasked implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		MaskRegistryClass.registerMaskItems();
+		EnchantmentEffectRegistry.registerEnchantmentEffects();
 	}
 
 	public static Identifier id(String path) {

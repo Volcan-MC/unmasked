@@ -20,5 +20,8 @@
   "item.unmasked.warden_mask": "Echoed Mask",
   "item.unmasked.fencing_mask": "Fencing Mask",
 
-  "item.unmasked.ominous_trial_mask": "Ominous Trial Mask"
+  "item.unmasked.ominous_trial_mask": "Ominous Trial Mask",
+
+  "enchantment.unmasked.veil": "Veil",
+  "enchantment.unmasked.facade": "Curse Of Deceit"
 }
