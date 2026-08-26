@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "unmasked",
-	"version": "${version}",
+	"version": "1.2",
 	"name": "unmasked",
 	"description": "Adds Masks to vanilla minecraft! These masks can be enchanted giving them the ability to hide the users name tag",
 	"authors": [

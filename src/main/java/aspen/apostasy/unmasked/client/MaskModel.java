@@ -16,7 +16,6 @@ public class MaskModel extends BipedEntityModel<BipedEntityRenderState> {
     }
 
     public static TexturedModelData getTexturedModelData() {
-        // Create the normal Minecraft player/biped model
         ModelData modelData = BipedEntityModel.getModelData(Dilation.NONE, 0.0F);
 
         ModelPartData root = modelData.getRoot();
@@ -25,7 +24,6 @@ public class MaskModel extends BipedEntityModel<BipedEntityRenderState> {
         ModelPartData maskModel = head.addChild(
                 "MaskModel",
                 ModelPartBuilder.create()
-                        // Original first cube
                         .uv(0, 23)
                         .cuboid(
                                 -5.0F,
@@ -36,7 +34,6 @@ public class MaskModel extends BipedEntityModel<BipedEntityRenderState> {
                                 10.0F
                         )
 
-                        // Original second cube
                         .uv(0, 23)
                         .cuboid(
                                 5.0F,
