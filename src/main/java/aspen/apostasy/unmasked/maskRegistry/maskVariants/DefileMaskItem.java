@@ -1,4 +1,4 @@
-package aspen.apostasy.unmasked.maskRegistry.custom;
+package aspen.apostasy.unmasked.maskRegistry.maskVariants;
 
 import aspen.apostasy.unmasked.Unmasked;
 import aspen.apostasy.unmasked.client.MaskModel;
@@ -18,12 +18,12 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
-public class DamageMaskItem extends TrinketItem implements TrinketRenderer {
+public class DefileMaskItem extends TrinketItem implements TrinketRenderer {
 
-    private static final Identifier TEXTURE = Identifier.of(Unmasked.MOD_ID, "textures/entity/trinket/damage.png");
+    private static final Identifier TEXTURE = Identifier.of(Unmasked.MOD_ID, "textures/entity/trinket/defile.png");
     private BipedEntityModel<BipedEntityRenderState> model;
 
-    public DamageMaskItem(Settings settings) {
+    public DefileMaskItem(Settings settings) {
         super(settings);
     }
 
@@ -43,7 +43,6 @@ public class DamageMaskItem extends TrinketItem implements TrinketRenderer {
     @Environment(EnvType.CLIENT)
     private BipedEntityModel<BipedEntityRenderState> getModel() {
         if (this.model == null) {
-            // Vanilla 1.17 uses EntityModels, EntityModelLoader and EntityModelLayers
             this.model = new MaskModel(MaskModel.getTexturedModelData().createModel());
         }
 

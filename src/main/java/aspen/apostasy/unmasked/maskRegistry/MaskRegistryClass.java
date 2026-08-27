@@ -1,7 +1,7 @@
 package aspen.apostasy.unmasked.maskRegistry;
 
 import aspen.apostasy.unmasked.Unmasked;
-import aspen.apostasy.unmasked.maskRegistry.custom.*;
+import aspen.apostasy.unmasked.maskRegistry.maskVariants.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -14,13 +14,9 @@ import java.util.function.Function;
 
 public class MaskRegistryClass {
 
-    // Basic Masks
-
     public static final Item PAPER_MASK = registerItem("paper_mask", PaperMaskItem::new);
 
     public static final Item BLINDFOLD = registerItem("blindfold", MaskItem::new);
-
-    // Flying Entity Masks
 
     public static final Item RAVEN_MASK = registerItem("raven_mask", MaskItem::new);
 
@@ -28,11 +24,7 @@ public class MaskRegistryClass {
 
     public static final Item ALLAY_MASK = registerItem("allay_mask", MaskItem::new);
 
-    // End Masks
-
     public static final Item ENDERMAN_MASK = registerItem("enderman_mask", EndermanMaskItem::new);
-
-    // Overworld Masks
 
     public static final Item BUNNY_MASK = registerItem("bunny_mask", MaskItem::new);
 
@@ -45,8 +37,6 @@ public class MaskRegistryClass {
     public static final Item WARDEN_MASK = registerItem("warden_mask", WardenMaskItem::new);
 
     public static final Item OMINOUS_TRIAL_MASK = registerItem("ominous_trial_mask", TrialMaskItem::new);
-
-    // External Masks
 
     public static final Item DEFILE_MASK = registerItem("defile_mask", DefileMaskItem::new);
 
