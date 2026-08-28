@@ -1,0 +1,14 @@
+{
+  "enchantment.unmasked.impersonate": "Impersonate",
+  "enchantment.unmasked.impersonate.desc": "Will disguise the user's skin into that of a concealed figure, though the illusion is broken if the user takes damage.",
+  "enchantment.unmasked.shroud": "Shroud",
+  "enchantment.unmasked.shroud.desc": "Will mask the user's display name.",
+  "item.unmasked.damage_harpy_mask": "Damage Harpy Mask",
+  "item.unmasked.defile_mask": "Defile Mask",
+  "item.unmasked.enderman_mask": "Enderman Mask",
+  "item.unmasked.paper_mask": "Paper Mask",
+  "item.unmasked.raven_mask": "Raven Mask",
+  "item.unmasked.skeleton_mask": "Skeleton Mask",
+  "item.unmasked.trial_mask": "Trial Mask",
+  "item.unmasked.warden_mask": "Warden Mask"
+}

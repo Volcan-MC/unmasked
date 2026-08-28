@@ -3,9 +3,12 @@
 	"id": "unmasked",
 	"version": "1.2",
 	"name": "unmasked",
-	"description": "Adds Masks to vanilla minecraft! These masks can be enchanted giving them the ability to hide the users name tag",
+	"description": "Adds masks to Vanilla Minecraft!",
 	"authors": [
 		"ItsVixen_ (Aspen)"
+	],
+	"contributors": [
+		"Chemthunder"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -23,15 +26,23 @@
 		],
 		"fabric-datagen": [
 			"aspen.apostasy.unmasked.UnmaskedDataGenerator"
+		],
+		"cardinal-components": [
+			"aspen.apostasy.unmasked.components.UnmaskedCCA"
 		]
 	},
 	"mixins": [
 		"unmasked.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
+		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"unmasked:impersonate"
+		]
 	}
 }
