@@ -11,7 +11,6 @@ import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.player.PlayerSkinType;
 import net.minecraft.entity.player.SkinTextures;
-import net.minecraft.item.MaceItem;
 import net.minecraft.util.AssetInfo;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;

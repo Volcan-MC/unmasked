@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "e": {
+      "conditions": {
+        "items": [
+          {
+            "items": "unmasked:damage_harpy_mask"
+          },
+          {
+            "items": "unmasked:defile_mask"
+          },
+          {
+            "items": "unmasked:enderman_mask"
+          },
+          {
+            "items": "unmasked:trial_mask"
+          },
+          {
+            "items": "unmasked:paper_mask"
+          },
+          {
+            "items": "unmasked:raven_mask"
+          },
+          {
+            "items": "unmasked:skeleton_mask"
+          },
+          {
+            "items": "unmasked:warden_mask"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.unmasked.masquerade.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "unmasked:paper_mask"
+    },
+    "title": {
+      "translate": "advancements.unmasked.masquerade.title"
+    }
+  },
+  "requirements": [
+    [
+      "e"
+    ]
+  ]
+}

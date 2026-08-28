@@ -3,8 +3,10 @@
   "package": "aspen.apostasy.unmasked.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ItemStackMixin",
     "PlayerEntityMixin",
-    "compat.enchancement.client.StoredEnchantmentsTooltipComponentMixin"
+    "compat.enchancement.EnchantingTableScreenHandlerMixin",
+    "compat.enchancement.StoredEnchantmentsTooltipComponentMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:string",
+    "D": "minecraft:ender_pearl",
+    "E": "minecraft:ender_pearl",
+    "p": "minecraft:paper"
+  },
+  "pattern": [
+    " E ",
+    "/p/",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:enderman_mask"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:string",
+    "D": "minecraft:sculk",
+    "E": "minecraft:sculk_catalyst",
+    "p": "minecraft:paper"
+  },
+  "pattern": [
+    " E ",
+    "/p/",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:warden_mask"
+  }
+}

@@ -1,18 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
-    "S": [
-      "paper"
-    ],
-    "#": [
-      "minecraft:string"
-    ]
+    "/": "minecraft:string",
+    "p": "minecraft:paper"
   },
   "pattern": [
-    "   ",
-    "#S#",
-    "   "
+    "/p/"
   ],
   "result": {
     "count": 1,

@@ -25,6 +25,9 @@ public class UnmaskedLanguageProvider extends FabricLanguageProvider {
 
         translationBuilder.add("enchantment.unmasked.impersonate", "Impersonate");
         translationBuilder.add("enchantment.unmasked.impersonate.desc", "Will disguise the user's skin into that of a concealed figure, though the illusion is broken if the user takes damage.");
+
+        translationBuilder.add("advancements.unmasked.masquerade.title", "A Complete Masquerade");
+        translationBuilder.add("advancements.unmasked.masquerade.desc", "A million faces, but do you see yourself in a single one of them?");
     }
 
     public String getName() {

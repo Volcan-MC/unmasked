@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:string",
+    "D": "minecraft:lime_dye",
+    "E": "minecraft:feather",
+    "p": "minecraft:paper"
+  },
+  "pattern": [
+    " E ",
+    "/p/",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:damage_harpy_mask"
+  }
+}

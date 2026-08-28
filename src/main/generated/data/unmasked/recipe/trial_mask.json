@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:string",
+    "D": "minecraft:breeze_rod",
+    "E": "minecraft:trial_key",
+    "p": "minecraft:paper"
+  },
+  "pattern": [
+    " E ",
+    "/p/",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:trial_mask"
+  }
+}

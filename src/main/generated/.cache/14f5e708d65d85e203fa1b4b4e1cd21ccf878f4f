@@ -1,0 +1,17 @@
+// 1.21.11	-999999999-01-01T00:00:00	unmasked/Unmasked Recipes
+5c7cbad0b2075a79cceb70789cb6b44ec4c1fb00 data/unmasked/advancement/recipes/tools/damage_harpy_mask.json
+5c97c93ba5f1f72288ee04fcd729a398bbde5b2a data/unmasked/advancement/recipes/tools/defile_mask.json
+c36a0d2429cc51929aeeb8cc258abe0340e8d38c data/unmasked/advancement/recipes/tools/enderman_mask.json
+95d974cfbd2c39d2d0fdb48ebb889e911e1ed668 data/unmasked/advancement/recipes/tools/paper_mask.json
+2f9890739410165285d38e38071d0329f7a02d62 data/unmasked/advancement/recipes/tools/raven_mask.json
+47956ace7a8ba8d19818d7e2bbcea89ea86e8198 data/unmasked/advancement/recipes/tools/skeleton_mask.json
+8b84cf0d19d15de20340cc5cf5434abfb735ca1c data/unmasked/advancement/recipes/tools/trial_mask.json
+03977dd70a6eb05cfe61f6e4f57f0f49a623a997 data/unmasked/advancement/recipes/tools/warden_mask.json
+4a02e3c2c2e773ace1b299bf240729639825683d data/unmasked/recipe/damage_harpy_mask.json
+4fecd9f1e433380255e8b3e9b4834fa5163bd94c data/unmasked/recipe/defile_mask.json
+d16c53cdfebea67f14c583fc2f377b034f056474 data/unmasked/recipe/enderman_mask.json
+f74a0d96a056ac317208c2238f9bb487fb2f4029 data/unmasked/recipe/paper_mask.json
+e72aa5e0545fd2c6e43f1a192b1a1fdb58892709 data/unmasked/recipe/raven_mask.json
+f43766f798160b6f9e4f6051a52e74ed154635de data/unmasked/recipe/skeleton_mask.json
+d52d04eef988b0f2c28131f1471c734f6e7f502f data/unmasked/recipe/trial_mask.json
+83465f9af0179314c48f5374ecef1a606d6d6b65 data/unmasked/recipe/warden_mask.json

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:string",
+    "D": "minecraft:bone",
+    "E": "minecraft:bone",
+    "p": "minecraft:paper"
+  },
+  "pattern": [
+    " E ",
+    "/p/",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "unmasked:skeleton_mask"
+  }
+}

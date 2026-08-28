@@ -1,4 +1,4 @@
-package aspen.apostasy.unmasked.mixin.compat.enchancement.client;
+package aspen.apostasy.unmasked.mixin.compat.enchancement;
 
 import aspen.apostasy.unmasked.Unmasked;
 import aspen.apostasy.unmasked.registry.UnmaskedItems;

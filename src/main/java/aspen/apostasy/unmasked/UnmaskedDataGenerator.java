@@ -12,6 +12,8 @@ public class UnmaskedDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(UnmaskedDynamicRegistryProvider::new);
+		pack.addProvider(UnmaskedRecipeProvider::new);
+		pack.addProvider(UnmaskedAdvancementProvider::new);
 
 		pack.addProvider(UnmaskedItemTagProvider::new);
 		pack.addProvider(UnmaskedEnchantmentTagProvider::new);
