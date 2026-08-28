@@ -30,7 +30,6 @@ public class UnmaskedItemTagProvider extends FabricTagProvider.ItemTagProvider {
         }
     }
 
-    @Override
     public String getName() {
         return "Unmasked Item Tags";
     }
